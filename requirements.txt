@@ -1,0 +1,155 @@
+# Requirments
+# pip install -r requirements.txt
+
+## Learn
+    - numpy
+    - pandas
+    - scikit-learn     
+    - matplotlib          
+    - seaborn          
+    - plotly
+    - streamlit         
+    - xgboost           
+    - lightgbm          
+    - catboost          
+    - tensorflow        
+    - keras             
+    - pytorch           
+    - torchvision       
+    - pytorch-lightning
+
+## Dev
+    - pytest
+    - flake8
+    - Configuration functionality
+    - Git functionality
+    - Docker
+    - AWS
+    - Azure
+    - GCP
+    - Jenkins
+    - CircleCI
+    - Gitlab
+    - Heroku
+
+## AI
+    - OpenAI
+    - Azure OpenAI
+    - Cohere
+    - Huggingface
+    - Google
+    - Microsoft
+    - IBM
+    - Amazon
+    - DeepL
+    - Google Translate
+    - Bing Translator
+    - Microsoft Translator
+    - DeepL Translator
+    - OpenAI Whisper
+    - Deepgram
+    - ElevenLabs
+    - ElevenLabs Voice Clone
+    - Mistral
+    - Azure Mistral
+    - Google Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+    - OpenAI Whisper Mistral
+    - Deepgram Mistral
+    - ElevenLabs Mistral
+    - ElevenLabs Voice Clone Mistral
+    - Azure OpenAI Mistral
+    - Cohere Mistral
+    - Huggingface Mistral
+    - DeepL Mistral
+
+    - Social Media API
+    - ChatGPT
+    - Midjourney
+    - DALL-E
+    - Bard
+```python
+    import os
+    from mistralai import Mistral
+
+    api_key = os.environ["MISTRAL_API_KEY"]
+    model = "mistral-embed"
+
+    client = Mistral(api_key=api_key)
+    response = client.embed(model=model, text="Hello, world!")
+    print(response)
+```

@@ -1,0 +1,16 @@
+{
+  "name": "payload-cms-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "payload": "^3.11.0",
+    "typescript": "^5.7.2"
+  }
+}
