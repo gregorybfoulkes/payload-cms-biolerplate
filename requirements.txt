@@ -42,106 +42,14 @@
     - IBM
     - Amazon
     - DeepL
-    - Google Translate
-    - Bing Translator
-    - Microsoft Translator
-    - DeepL Translator
-    - OpenAI Whisper
     - Deepgram
     - ElevenLabs
-    - ElevenLabs Voice Clone
     - Mistral
-    - Azure Mistral
-    - Google Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-    - OpenAI Whisper Mistral
-    - Deepgram Mistral
-    - ElevenLabs Mistral
-    - ElevenLabs Voice Clone Mistral
-    - Azure OpenAI Mistral
-    - Cohere Mistral
-    - Huggingface Mistral
-    - DeepL Mistral
-
-    - Social Media API
     - ChatGPT
     - Midjourney
     - DALL-E
     - Bard
+
 ```python
     import os
     from mistralai import Mistral
@@ -152,4 +60,55 @@
     client = Mistral(api_key=api_key)
     response = client.embed(model=model, text="Hello, world!")
     print(response)
-```
+
+    # Output: {'embeddings': [[0.1, 0.2, 0.3, 0.4, 0.5]]}
+'''
+
+'''python
+    import catboost
+    from catboost import CatBoost, Pool
+
+    train_data = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9],
+    ]
+    train_labels = [0, 1, 0]    
+
+    train_pool = Pool(train_data, label=train_labels)
+    model = CatBoost(<train_params>)
+    model.fit(train_pool)
+    model.save_model(OUTPUT_PYTHON_MODEL_PATH, format="python")
+'''
+payload-cms-boilerplate/
+│
+├── .gitignore               # Git ignore file
+├── .env                     # Environment variables
+├── README.md                # Project documentation
+├── requirements.txt         # Project dependencies
+├── data.json                # Data storage
+│
+├── src/                     # Source code directory
+│   ├── __init__.py          # Makes src a package
+│   ├── app.py               # Main application file
+│   ├── content_manager.py    # Content management logic
+│   ├── models/              # Directory for data models
+│   │   ├── __init__.py      # Makes models a package
+│   │   └── content.py       # Content model (if needed)
+│   ├── services/            # Directory for services (business logic)
+│   │   ├── __init__.py      # Makes services a package
+│   │   └── api_service.py   # API related functionalities
+│   ├── utils/               # Utility functions
+│   │   ├── __init__.py      # Makes utils a package
+│   │   └── helpers.py       # Helper functions
+│   └── tests/               # Test directory
+│       ├── __init__.py      # Makes tests a package
+│       └── test_app.py      # Tests for the main application
+│
+├── scripts/                 # Scripts for maintenance and automation
+│   ├── maintenance.sh        # Bash script for maintenance tasks
+│   └── setup.sh             # Bash script for setup tasks (if needed)
+│
+└── config/                  # Configuration files
+    ├── config.yaml          # Configuration settings (if needed)
+    └── logging.yaml         # Logging configuration (if needed)

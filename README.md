@@ -1,16 +1,27 @@
 # Payload CMS Boilerplate
 
-This is a boilerplate for a basic CMS application built with Python.
+## Overview
+    This project serves as a boilerplate for a content management system (CMS) that utilizes payload configurations and an SQLite database.
 
 ## Features
     - Basic functionality
     - Modular structure
-
+    - Configuration management
+    - Database integration
 ## Getting Started
 
 1. Clone the repository
+   ```bash
+    git clone <repository-url>
+   ```
 2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
 3. Run the application
+   ```bash
+   python app.py
+   ```
 
 ## License
     This project is licensed under the MIT License.

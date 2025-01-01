@@ -1,0 +1,23 @@
+# Database Configuration
+database:
+  db_path: "path/to/your/database.db"  # Path to the SQLite database file
+
+# API Configuration
+api:
+  key: "your_api_key_here"              # API key for external services
+  endpoint: "https://api.example.com"   # Base URL for the API
+
+# Application Settings
+app:
+  debug: true                            # Enable debug mode
+  port: 5000                             # Port number for the application
+
+# Logging Configuration
+logging:
+  level: "INFO"                          # Logging level (DEBUG, INFO, WARNING, ERROR)
+  log_file: "path/to/logfile.log"       # Path to the log file
+
+# Other Configurations
+other_settings:
+  feature_enabled: true                   # Example feature toggle
+  max_connections: 100                    # Example setting for maximum connections

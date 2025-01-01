@@ -5,6 +5,36 @@ __pycache__/
 # Environment variables
 .env
 
+# Database files
+*.db
+
+# Static files
+static/
+
+# Media files
+media/
+
+# Translations
+*.mo
+
+# Virtual environment
+venv/
+
+# Django migrations
+*/migrations/
+
+# Django static files
+*/staticfiles/  
+
+# Django media files
+*/mediafiles/
+
+# Django translations
+*/locale/
+
+# Virtual environment
+venv/
+
 # Node.js dependencies
 node_modules/
 

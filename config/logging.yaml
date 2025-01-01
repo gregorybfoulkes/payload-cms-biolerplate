@@ -1,0 +1,26 @@
+version: 1  # Version of the logging configuration schema
+disable_existing_loggers: false  # Disable existing loggers or not
+
+formatters:
+  simple:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"  # Simple log format
+  detailed:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s:%(lineno)d"  # Detailed log format
+
+handlers:
+  console:
+    class: logging.StreamHandler  # Log to console
+    formatter: simple
+    level: DEBUG  # Log level for console output
+
+  file:
+    class: logging.FileHandler  # Log to a file
+    formatter: detailed
+    filename: "path/to/logfile.log"  # Path to the log file
+    level: INFO  # Log level for file output
+
+loggers:
+  my_app:
+    level: DEBUG  # Log level for your application
+    handlers: [console, file]  # Handlers to use
+    propagate: no  # Do not propagate to the root logger
